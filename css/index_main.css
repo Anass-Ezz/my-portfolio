@@ -388,6 +388,7 @@ footer{
 }
 .project-tech-1{
   display: flex;
+  flex-flow: wrap;
   flex-direction: rtl;
   justify-content: right;
   column-gap: 20px;
@@ -447,6 +448,7 @@ footer{
 }
 .project-tech-2{
   display: flex;
+  flex-flow: wrap;
   flex-direction: ltr;
   column-gap: 20px;
 }
