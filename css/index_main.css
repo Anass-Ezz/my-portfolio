@@ -168,13 +168,15 @@ footer{
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
   box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #dot1:hover::after{
   content: 'x';
   position: relative;
-  bottom: 7px;
-  left: 3.4px;
+  bottom: 2px;
   font-size: 12px;
   color: black;
   
@@ -182,8 +184,7 @@ footer{
 #dot2:hover::after{
   content: '-';
   position: relative;
-  bottom: 7px;
-  left: 3.4px;
+  bottom: 2px;
   font-size: 12px;
   color: black;
   
