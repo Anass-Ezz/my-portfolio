@@ -5,6 +5,7 @@
   --border-color:none;
   --card-color:none;
   --film-color:none;
+  --sky-blue:#17a2b8;
 }
 *::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
@@ -89,9 +90,19 @@ footer{
   background-color: var(--soft-color);
   color: var(--text-color);
   text-align: center;
-  height: 50px;
-  
+  color: var(--text-color);
+
 }
+footer i{
+  color: var(--text-color);
+}
+footer i:hover{
+  color: var(--sky-blue);
+}
+strong{
+  color: var(--sky-blue);
+}
+
 .section-label{
   font-family: teko;
   color: var(--text-color);
@@ -100,7 +111,7 @@ footer{
   border-bottom: solid 1px var(--text-color);
 }
 .section-label span{
-  color: #17a2b8;
+  color: var(--sky-blue);
 }
 #intro-header {
   color: var(--text-color);
@@ -227,7 +238,7 @@ footer{
 #what-i-do {
   position: relative;
   width: fit-content;
-  border: #17a2b8 solid 1px;
+  border: var(--sky-blue) solid 1px;
   margin-top: 100px;
   width: 320px;
   box-shadow: -20px -20px 0 rgb(0 0 0 / 0.3);
@@ -245,14 +256,14 @@ footer{
 .corner {
   position: absolute;
   background-color: white;
-  border: solid 1px #17a2b8;
+  border: solid 1px var(--sky-blue);
   border-radius: 100%;
   width: 8px;
   height: 8px;
 }
 #intro-how-i-can-help {
   width: 320px;
-  border: solid 1px #17a2b8;
+  border: solid 1px var(--sky-blue);
   padding: 5px 30px;
   margin-top: 10px;
   font-family: roboto mono;
@@ -290,7 +301,7 @@ footer{
   margin: 20px auto; 
   background-color: transparent; 
   padding: 10px 20px; 
-  border: solid #17a2b8 2px; 
+  border: solid var(--sky-blue) 2px; 
   color: var(--text-color);
   width: 600px;
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -308,7 +319,7 @@ footer{
   margin-top: 20px;
   width: 600px;
   position: relative;
-  border: #17a2b8 solid 1px;
+  border: var(--sky-blue) solid 1px;
   text-align: left;
   display: flex;
   background-color: var(--soft-color);
@@ -316,7 +327,7 @@ footer{
   justify-content: space-around;
 }
 #skills i{
-  color: #17a2b8;
+  color: var(--sky-blue);
 }
 
 #approch{
@@ -475,8 +486,8 @@ footer{
 .contact-button{
   border-radius: 5px;
   padding: 15px 25px;
-  color: #17a2b8;
-  border: solid 2px #17a2b8;
+  color: var(--sky-blue);
+  border: solid 2px var(--sky-blue);
   background-color: transparent;
   margin: 30px 0px;
 }
