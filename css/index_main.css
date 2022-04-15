@@ -99,7 +99,7 @@ footer i{
 footer i:hover{
   color: var(--sky-blue);
 }
-strong{
+strong:hover{
   color: var(--sky-blue);
 }
 
